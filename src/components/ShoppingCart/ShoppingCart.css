@@ -1,0 +1,19 @@
+.shopping-cart {
+  display: grid;
+  grid-template-columns: 400px 300px;
+  margin: 45px auto 0;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 18px rgba(0, 0, 0, .07);
+  height: 597px;
+}
+
+.shopping-cart__form {
+
+}
+
+.shopping-cart__order-info {
+  padding: 24px 10px 15px 6px;
+  border-radius: 0 5px 5px 0;
+  background: rgba(230, 233, 240, .5);
+}
