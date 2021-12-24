@@ -1,0 +1,58 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 700px 1fr;
+  background: #fff;
+}
+
+.header__grid-field {
+  display: grid;
+  grid-template-columns: 26px 1fr 1fr;
+  grid-column: 2 / 3;
+}
+
+.header__logo {
+  margin: 12px 0;
+  height: 26px;
+  width: 26px;
+}
+
+.header__title {
+  padding: 16px 0 0 10px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1rem;
+  font-size: 1.3rem;
+  color: #5a1094;
+}
+
+.header__link {
+  justify-self: end;
+}
+
+.header__button {
+  cursor: pointer;
+  background: url(../../images/header__button-img.svg) no-repeat bottom right 8px;
+  position: relative;
+  padding: 0;
+  padding-top: 10px;
+  border: none;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #c90ea5;
+  height: 22px;
+  width: 59px;
+}
+
+.header__cart-counter {
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  height: 14px;
+  width: 14px;
+  border-radius: 50px;
+  background: #ff1876;
+}

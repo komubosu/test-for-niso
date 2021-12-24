@@ -1,0 +1,6 @@
+.app {
+  display: grid;
+  grid-template: 50px 1fr/ 1fr;
+  height: 100vh;
+  background: #e6e9f0;
+}
