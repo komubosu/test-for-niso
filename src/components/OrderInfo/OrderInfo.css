@@ -1,0 +1,43 @@
+.order-info {
+  display: grid;
+  grid-template: 22px minmax(0px, max-content) 100px/ 1fr;
+}
+
+.order-info__title {
+  padding-left: 6px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 18px;
+  color: #5a1094;
+}
+
+.order-info__prices {
+  padding: 0;
+  list-style: none;
+  margin: 13px 5px 0 9px;
+  grid-row: 3 / 4;
+}
+
+.order-info__price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-info__price:nth-child(3) {
+  border-bottom: solid 1px #e3e3e3;
+}
+
+.order-info__price-text {
+  margin: 0;
+  padding-bottom: 9px;
+  font-size: 12px;
+  line-height: 11px;
+  color: #777879;
+}
+
+.order-info__price-text_total {
+  margin-top: 14px;
+  line-height: 13px;
+  font-weight: bold;
+  color: #431c5d;
+}

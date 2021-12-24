@@ -53,6 +53,8 @@
   margin: 0;
   height: 14px;
   width: 14px;
+  font-size: 9px;
+  line-height: 14px;
   border-radius: 50px;
   background: #ff1876;
 }
