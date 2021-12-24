@@ -1,0 +1,40 @@
+.order-card {
+  padding: 11px 5px 11px 7px;
+  list-style: none;
+  border-bottom: solid 1px rgb(151, 151, 151, .2);
+  display: flex;
+  flex-direction: row;
+}
+
+.order-card__img {
+  height: 45px;
+  width: 45px;
+  border-radius: 1px;
+  border: solid 1px rgb(151, 151, 151, .2);
+}
+
+.order-card__field {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.order-card__text-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-card__text {
+  margin: 0;
+  font-size: 10px;
+  line-height: 12px;
+  color: #2b2525;
+  padding-bottom: 1px;
+}
+
+.order-card__text_title {
+  margin: 0;
+  font-size: 12px;
+  line-height: 11px;
+  color: #777879;
+  padding-bottom: 7px;
+}
