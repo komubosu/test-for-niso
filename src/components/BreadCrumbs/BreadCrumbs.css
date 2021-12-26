@@ -1,0 +1,30 @@
+.bread-crumbs {
+  display: flex;
+}
+
+.bread-crumbs__link {
+  cursor: default;
+  text-decoration: none;
+  padding-top: 2px;
+  margin: 0;
+  color: #979797;
+  font-size: 12px;
+  line-height: 14px;
+  opacity: .8;
+}
+
+.bread-crumbs__link_active {
+  text-decoration: none;
+  color: #5a1094;
+  opacity: 1;
+}
+
+.bread-crumbs__link_complete {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.bread-crumbs__img {
+  margin: 0 14px;
+}

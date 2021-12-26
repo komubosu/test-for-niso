@@ -4,7 +4,7 @@ import OrderCard from '../OrderCard.js/OrderCard';
 import './OrderList.css';
 
 function OrderList() {
-  const orders = useSelector(state => state.order.orders);
+  const orders = useSelector(state => state.orderInfo.orders);
 
   return (
     <ul className='order-list'>

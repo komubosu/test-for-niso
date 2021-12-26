@@ -4,9 +4,9 @@ import './OrderInfo.css';
 import OrderList from '../OrderList/OrderList';
 
 function OrderInfo() {
-  const orders = useSelector(state => state.order.orders);
-  const shipping = useSelector(state => state.order.shipping);
-  const taxes = useSelector(state => state.order.taxes);
+  const orders = useSelector(state => state.orderInfo.orders);
+  const shipping = useSelector(state => state.orderInfo.shipping);
+  const taxes = useSelector(state => state.orderInfo.taxes);
 
   const orderSubtotal = orders.reduce((acc, item) => acc + item.price*item.quantity, 0);
   const orderTotal = orderSubtotal + shipping + taxes;
