@@ -10,11 +10,11 @@ function ShoppingCart() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   if (location.pathname === '/shopping-cart' || '/shopping-cart/') {
-  //     navigate('/shopping-cart/shipping');
-  //   };
-  // }, []);
+  useEffect(() => {
+    if (location.pathname === '/shopping-cart' || '/shopping-cart/') {
+      navigate('/shopping-cart/shipping');
+    };
+  }, []);
 
   return (
     <div className='shopping-cart'>
